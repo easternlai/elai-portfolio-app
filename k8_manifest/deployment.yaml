@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: portfolio-app
-        image: 856660075226.dkr.ecr.us-west-2.amazonaws.com/stg-portfolio-us-west-2:49956de
+        image: DOCKER_IMAGE
         imagePullPolicy: Always
         resources:
           limits:
