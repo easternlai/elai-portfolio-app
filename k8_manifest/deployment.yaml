@@ -9,7 +9,7 @@ metadata:
   name: portfolio-app
   namespace: portfolio
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: portfolio-app
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: portfolio-app
-        image: 856660075226.dkr.ecr.us-west-2.amazonaws.com/next-test:latest
+        image: 856660075226.dkr.ecr.us-west-2.amazonaws.com/stg-portfolio-us-west-2:latest
         imagePullPolicy: Always
         resources:
           limits:
