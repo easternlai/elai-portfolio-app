@@ -6,8 +6,6 @@ COPY package*.json ./
 
 RUN npm ci
 
-RUN npm i sharp
-
 COPY . .
 
 RUN npm run build
