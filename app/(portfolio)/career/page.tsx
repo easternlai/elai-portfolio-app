@@ -43,11 +43,13 @@ const CareerPage = () => {
                         <div className="text-3xl font-medium">{company.title}</div>
                         <div>{company.name} | {company.tenure}</div>
                         <div className="mt-4"><a className="font-medium">My role: </a>{company.role}</div>
-                        <div className="mt-4"><a className="font-medium">About {company.name.split(" ")[0]}: </a>{company.about}</div>
+                        {/* <div className="mt-4"><a className="font-medium">About {company.name.split(" ")[0]}:</a> {company.about}</div> */}
                     </div>
                 )
             })}
         </div>
+
+
     )
 }
 export default CareerPage
