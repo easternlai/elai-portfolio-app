@@ -27,7 +27,7 @@ export const Header = () => {
                 <nav className="flex space-x-10 mt-8 text-3xl">
                     <NavLink href="/career" className="">Career</NavLink>
                     <NavLink href="/tech" className="">Tech Stack </NavLink>
-                    <NavLink href="/about" className="">About Me</NavLink>
+                    <NavLink href="/about" className="">Contact</NavLink>
                 </nav>
             </div>
         </div>
