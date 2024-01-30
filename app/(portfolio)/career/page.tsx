@@ -39,7 +39,7 @@ const CareerPage = () => {
             <div className="text-4xl font-medium mb-8">Work History</div>
             {companies.map((company, index) => {
                 return (
-                    <div key={index} className="mb-16 text-2xl font-light tracking-wider leading-10">
+                    <div key={index} className="mb-24 text-2xl font-light tracking-wider leading-10">
                         <div className="text-3xl font-medium">{company.title}</div>
                         <div>{company.name} | {company.tenure}</div>
                         <div className="mt-4"><a className="font-medium">My role: </a>{company.role}</div>
