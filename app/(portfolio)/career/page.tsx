@@ -3,7 +3,7 @@ const CareerPage = () => {
         {
             title: "Site Reliability Engineer",
             team: "Cloud Team",
-            tenure: "Mar 2002 to Jan 2024",
+            tenure: "Mar 2022 to Jan 2024",
             role: "A member of the cloud team responsible for the production infrastructure in AWS. Our primary focus was to apply infrastructure as code principles in every deployment to improve consistency, efficiency, and security throughout the environment.",
             name: "Papa",
             about: "An app-based platform that provides senior citizens access for on-demand assistance and companionship."
