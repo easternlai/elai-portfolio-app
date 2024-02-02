@@ -1,6 +1,6 @@
 const TechPage = () => {
     return (
-        <div className="text-2xl font-light tracking-wide leading-10">
+        <div className="text-2xl font-light tracking-wide leading-10 text-center md:text-left">
             <div className="text-4xl font-medium mb-8">Portfolio Deployment Details</div>
             <div className="mb-16">
                 <div className="mt-4"><a className="font-bold">Devops: </a>The infrastructure for this portfolio is deployed entirely on AWS. The app is running on a managed EKS cluster, using Route53 and AWS Application Load Balancer to manage ingress traffic.</div>

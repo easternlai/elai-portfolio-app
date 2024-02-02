@@ -35,7 +35,7 @@ const CareerPage = () => {
 
     ]
     return (
-        <div>
+        <div className="text-center md:text-left">
             <div className="text-4xl font-medium mb-8">Work History</div>
             {companies.map((company, index) => {
                 return (
