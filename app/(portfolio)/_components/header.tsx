@@ -22,7 +22,7 @@ export const Header = () => {
 
             <div className={cn(headingFont.className, "flex-col")}>
                 <div className="flex justify-center md:justify-normal">
-                    <a href="/" className="pb-3 border-b-8 border-[#4B6CC1] text-6xl md:text-xl md:font-bold mt-4">EASTERN LAI</a>
+                    <a href="/" className="pb-3 border-b-8 border-[#4B6CC1] text-6xl md:text-5xl md:font-bold mt-4">EASTERN LAI</a>
                 </div>
                 <nav className="flex justify-center space-x-4 md:justify-normal sm:space-x-4 xl:md:space-x-10 mt-8 text-3xl">
                     <NavLink href="/career" className="">Career</NavLink>
