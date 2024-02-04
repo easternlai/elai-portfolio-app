@@ -18,7 +18,7 @@ const mainFont = Karla({
 const PortfolioLayout = ({ children }: { children: any }) => {
 
     return (
-        <div className={cn(mainFont.className, " sm:mx-12 md:mx-16 lg:mx-32 xl:96 px-12 md:pt-12")}>
+        <div className={cn(mainFont.className, " sm:mx-12 md:mx-16 lg:mx-48 xl:96 px-12 md:pt-12")}>
             <Header />
             <div>
                 {children}
