@@ -75,7 +75,7 @@ const AboutPage = () => {
                 <div className=""><span className="font-bold">LinkedIn: </span><a className="underline" href="https://www.linkedin.com/in/eastern-lai-3b05b585/">https://www.linkedin.com/in/eastern-lai-3b05b585/</a></div>
             </div>
             <div className="w-full flex justify-center md:justify-normal mt-8 mb-48">
-                <Form {...form}>
+                {/* <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 w-1/2 min-w-96">
                         <div className="text-3xl mt-20">Want to get in touch?</div>
                         <div className="text-xl font-light">Leave a message and I will get back to you shortly.</div>
@@ -122,7 +122,7 @@ const AboutPage = () => {
                             <Button className="w-full md:w-24" type="submit">Submit</Button>
                         </div>
                     </form>
-                </Form>
+                </Form> */}
             </div>
 
         </div>
