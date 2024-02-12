@@ -40,7 +40,7 @@ const AboutPage = () => {
     })
 
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
-        const test = await fetch('http://localhost:6001/api/contact', {
+        const test = await fetch('http://portfolio-service:6001/api/contact', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ const AboutPage = () => {
         const data = await test.json()
         console.log("GET: ", data);
         try {
-            const response = await fetch('http://localhost:6001/api/contact', {
+            const response = await fetch('http://portfolio-service:6001/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
