@@ -40,7 +40,7 @@ const AboutPage = () => {
     })
 
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
-        const test = await fetch('portfolio-service:6001/api/contact', {
+        const test = await fetch('https://api.easternlai.com/api/contact', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ const AboutPage = () => {
         const data = await test.json()
         console.log("GET: ", data);
         try {
-            const response = await fetch('portfolio-service:6001/api/contact', {
+            const response = await fetch('https://api.easternlai.com/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -75,7 +75,7 @@ const AboutPage = () => {
                 <div className=""><span className="font-bold">LinkedIn: </span><a className="underline" href="https://www.linkedin.com/in/eastern-lai-3b05b585/">https://www.linkedin.com/in/eastern-lai-3b05b585/</a></div>
             </div>
             <div className="w-full flex justify-center md:justify-normal mt-8 mb-48">
-                {/* <Form {...form}>
+                <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 w-1/2 min-w-96">
                         <div className="text-3xl mt-20">Want to get in touch?</div>
                         <div className="text-xl font-light">Leave a message and I will get back to you shortly.</div>
@@ -122,7 +122,7 @@ const AboutPage = () => {
                             <Button className="w-full md:w-24" type="submit">Submit</Button>
                         </div>
                     </form>
-                </Form> */}
+                </Form>
             </div>
 
         </div>
