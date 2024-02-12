@@ -16,8 +16,6 @@ type NavLinkProps = {
 const NavLink: React.FC<NavLinkProps> = ({ href, className, children }) => {
     const pathname = usePathname();
 
-    console.log("pathname", pathname)
-    console.log("href", href)
     return (
         <Link href={href} className={cn(className, pathname == href ? "font-medium" : "font-light")}>
             {children}
